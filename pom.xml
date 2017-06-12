@@ -16,7 +16,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<NWDI-config-plugin.version>1.0.9</NWDI-config-plugin.version>
+		<NWDI-config-plugin.version>1.0.11</NWDI-config-plugin.version>
 	</properties>
 
 	<repositories>
