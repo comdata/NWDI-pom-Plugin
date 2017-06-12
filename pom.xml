@@ -46,7 +46,7 @@
 		<url>https://github.com/comdata/NWDI-pom-Plugin</url>
 		<tag>HEAD</tag>
 	</scm>
-	<inceptionYear>2011</inceptionYear>
+
 	<developers>
 		<developer>
 			<name>Dirk Weigenand</name>
