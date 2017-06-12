@@ -7,7 +7,7 @@
 	</parent>
 	<groupId>org.arachna.netweaver</groupId>
 	<artifactId>NWDI-pom-Plugin</artifactId>
-	<version>1.4</version>
+	<version>1.5-SNAPSHOT</version>
 	<name>NWDI plugins parent POM</name>
 	<packaging>pom</packaging>
 	<description>Provides pom files for source code analysis of the family of NWDI-Jenkins plugins.</description>
