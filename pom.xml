@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.jenkins-ci.plugins</groupId>
@@ -13,27 +14,32 @@
 	<description>Provides pom files for source code analysis of the family of NWDI-Jenkins plugins.</description>
 	<url>http://github.com/comdata/NWDI-config-Plugin.git</url>
 	<inceptionYear>2011</inceptionYear>
-	
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<NWDI-config-plugin.version>1.0.9</NWDI-config-plugin.version> 
+		<NWDI-config-plugin.version>1.0.9</NWDI-config-plugin.version>
 	</properties>
 
 	<repositories>
-	 <repository>
-                    <snapshots>
-                        <enabled>false</enabled>
-                    </snapshots>
-                    <id>bintray-comdata-NWDI</id>
-                    <name>bintray</name>
-                    <url>http://dl.bintray.com/comdata/NWDI</url>
-                </repository>
+		<repository>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<id>bintray-comdata-NWDI</id>
+			<name>bintray</name>
+			<url>http://dl.bintray.com/comdata/NWDI</url>
+		</repository>
 		<repository>
 			<id>repo.jenkins-ci.org</id>
 			<url>https://repo.jenkins-ci.org/public/</url>
 		</repository>
 	</repositories>
 	<pluginRepositories>
+		<pluginRepository>
+			<id>bintray-comdata-NWDI</id>
+			<name>bintray</name>
+			<url>http://dl.bintray.com/comdata/NWDI</url>
+		</pluginRepository>
 		<pluginRepository>
 			<id>repo.jenkins-ci.org</id>
 			<url>https://repo.jenkins-ci.org/public/</url>
@@ -213,7 +219,7 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-<distributionManagement>
+	<distributionManagement>
 		<repository>
 			<id>bintray</id>
 			<url>https://api.bintray.com/maven/comdata/NWDI/NWDI-pom-plugin</url>
