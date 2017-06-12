@@ -126,7 +126,7 @@
 						<dependency>
 							<groupId>org.arachna.netweaver</groupId>
 							<artifactId>NWDI-config-plugin</artifactId>
-							<version>${NWDI-config-plugin.version}</version>
+							<version>1.0.9</version>
 						</dependency>
 					</dependencies>
 					<configuration>
